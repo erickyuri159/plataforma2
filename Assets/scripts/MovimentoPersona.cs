@@ -32,10 +32,12 @@ public class MovimentoPersona : MonoBehaviour
     public GameObject Bala;
     private float meuTempoTiro = 0;
     private bool pode_atirar = true;
+    private Animator Animador;
     void Start()
     {
         BarraHp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
         Moeda_texto = GameObject.FindGameObjectWithTag("moeda_text_tag").GetComponent<Text>();
+        Animador = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -57,18 +59,25 @@ public class MovimentoPersona : MonoBehaviour
         if (velocidade > 0)
         {
             ImagemPersonagem.flipX = false;
+            Animador.SetBool("Correndo", true);
         }
         else if (velocidade < 0)
         {
             ImagemPersonagem.flipX = true;
+            Animador.SetBool("Correndo", true);
         }
+        else
+        {
+            Animador.SetBool("Correndo", false);
+        }
+
     }
     void pular()
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
             pode_pular = false;
-            qtd_pulo++;
+            qtd_pulo--;
             if (qtd_pulo <= 2)
             {
                 AcaoPulo();
