@@ -92,7 +92,7 @@ public class MovimentoPersona : MonoBehaviour
             pode_pular = true;
             meuTempoPulo = 0;
         }
-        if (gatilho.gameObject.tag == "moeda");
+        if (gatilho.gameObject.tag == "moeda") ;
         {
             Destroy(gatilho.gameObject);
             moedas++;
@@ -148,33 +148,55 @@ public class MovimentoPersona : MonoBehaviour
     //atirar bala
     void Atirar()
     {
-       if (Input.GetKeyDown(KeyCode.X))
+        if (pode_atirar == true)
         {
-            Disparo();
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                pode_atirar = false;
+                Disparo();
+            }
         }
-    }
-    void Disparo()// posiçao da bala que sai
-    {
-        if (ImagemPersonagem.flipX == false)
-        {
-        Vector3 pontoDisparo = new Vector3(transform.position.x + 0.3f, transform.position.y, transform.position.z);
-        GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
-        BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(0.02f);
-        //destruir bala 
-        Destroy(BalaDisparada,0.5f);
 
+        else
+        {
+            TemporizadorTiro();
         }
-        if (ImagemPersonagem.flipX == true)
-        {
-            Vector3 pontoDisparo = new Vector3(transform.position.x - 0.3f, transform.position.y, transform.position.z);
-            GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
-            BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(-0.02f);
-            //destruir bala 
-            Destroy(BalaDisparada, 0.5f);
 
+        void Disparo()// posiçao da bala que sai
+        {
+            if (ImagemPersonagem.flipX == false)
+            {
+                Vector3 pontoDisparo = new Vector3(transform.position.x + 0.3f, transform.position.y, transform.position.z);
+                GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
+                BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(0.02f);
+                //destruir bala 
+                Destroy(BalaDisparada, 0.5f);
+
+            }
+            if (ImagemPersonagem.flipX == true)
+            {
+                Vector3 pontoDisparo = new Vector3(transform.position.x - 0.3f, transform.position.y, transform.position.z);
+                GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
+                BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(-0.02f);
+                //destruir bala 
+                Destroy(BalaDisparada, 0.5f);
+
+            }
+        }
+        void TemporizadorTiro()
+        {
+            meuTempoTiro += Time.deltaTime;
+            if (meuTempoTiro > 0.5f)
+            {
+                pode_atirar = true;
+                meuTempoTiro = 0;
+
+            }
         }
     }
 }
+
+
 
 
 

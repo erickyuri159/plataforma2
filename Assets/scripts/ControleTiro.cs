@@ -25,5 +25,14 @@ public class ControleTiro : MonoBehaviour
     {
         velocidade_bala = direcao;
     }
-
+    private void OnCollisionEnter2D(Collision2D colisao)
+    {
+        if (colisao.gameObject.tag== "inimigo")
+        {
+            //outro objeto
+            Destroy(colisao.gameObject);
+            //esse objeto
+            Destroy(this.gameObject);
+        }
+    }
 }
