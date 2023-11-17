@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Esqueleto : MonoBehaviour
 {
-    public int hp = 4;
+    public int hp = 100;
     public bool podeTomarDano = true;
     private Animator Animacao;
     public float posInicial;
@@ -34,7 +34,7 @@ public class Esqueleto : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, Jogador.transform.position) <= 1.9f)
         {
-            Debug.Log("CHAMOU ATAQUE");
+            //Debug.Log("CHAMOU ATAQUE");
             Animacao.SetTrigger("Atacar");
             
         }else if (Vector2.Distance(transform.position, Jogador.transform.position) <= 2f)
@@ -117,7 +117,7 @@ public class Esqueleto : MonoBehaviour
     {
         GetComponent<Collider2D>().enabled = false;
         vivo = false;
-        Destroy(this.gameObject, 15f);
+        Destroy(gameObject, 15f);
     }
 
 }

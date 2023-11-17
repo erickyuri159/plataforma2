@@ -48,10 +48,13 @@ public class MovimentoPersona : MonoBehaviour
         Apontar();
         dano();
         Atirar();
+        
+
+       
     }
     void Mover()//responsavel por mover o personagem
     {
-        velocidade = Input.GetAxis("Horizontal") * 4;
+        velocidade = Input.GetAxis("Horizontal") * 3;
         Corpo.velocity = new Vector2(velocidade, Corpo.velocity.y);
     }
     void Apontar()
@@ -92,6 +95,9 @@ public class MovimentoPersona : MonoBehaviour
     {
         Corpo.velocity = new Vector2(velocidade, 0);// zera velocidade de queda para o pulo
         Corpo.AddForce(transform.up * 300f); // adiciona força para pular
+        
+            Animador.SetTrigger("Pulo");
+        
     }
     void OnTriggerEnter2D(Collider2D gatilho)//gatilhos
     {
@@ -101,7 +107,7 @@ public class MovimentoPersona : MonoBehaviour
             pode_pular = true;
             meuTempoPulo = 0;
         }
-        if (gatilho.gameObject.tag == "moeda") ;
+        if (gatilho.gameObject.tag == "moeda")
         {
             Destroy(gatilho.gameObject);
             moedas++;
@@ -175,18 +181,18 @@ public class MovimentoPersona : MonoBehaviour
         {
             if (ImagemPersonagem.flipX == false)
             {
-                Vector3 pontoDisparo = new Vector3(transform.position.x + 0.3f, transform.position.y, transform.position.z);
+                Vector3 pontoDisparo = new Vector3(transform.position.x + 0.5f, transform.position.y + 0.4f, transform.position.z);
                 GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
-                BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(0.02f);
+                BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(0.03f);
                 //destruir bala 
                 Destroy(BalaDisparada, 0.5f);
 
             }
             if (ImagemPersonagem.flipX == true)
             {
-                Vector3 pontoDisparo = new Vector3(transform.position.x - 0.3f, transform.position.y, transform.position.z);
+                Vector3 pontoDisparo = new Vector3(transform.position.x - 0.5f, transform.position.y + 0.4f, transform.position.z);
                 GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
-                BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(-0.02f);
+                BalaDisparada.GetComponent<ControleTiro>().DirecaoBala(-0.03f);
                 //destruir bala 
                 Destroy(BalaDisparada, 0.5f);
 

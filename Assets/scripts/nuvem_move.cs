@@ -20,10 +20,10 @@ public class nuvem_move : MonoBehaviour
     void nuvemVelocidade()
     {
         transform.position = new Vector3(transform.position.x + velocidade, transform.position.y, transform.position.z);
-        if (transform.position.x < Jogador.transform.position.x - 16) 
+        if (transform.position.x < Jogador.transform.position.x - 9) 
         {
             float posY = Random.RandomRange(2.9f, 6.8f);
-            transform.position = new Vector3(Jogador.transform.position.x + 16, posY, transform.position.z);
+            transform.position = new Vector3(Jogador.transform.position.x + 9, posY, transform.position.z);
         }
     }
 }

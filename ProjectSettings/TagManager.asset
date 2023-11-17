@@ -10,6 +10,7 @@ TagManager:
   - moeda
   - moedaQ
   - moeda_text_tag
+  - Ataque
   layers:
   - Default
   - TransparentFX
