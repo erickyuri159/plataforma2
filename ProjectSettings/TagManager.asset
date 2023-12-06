@@ -11,6 +11,25 @@ TagManager:
   - moedaQ
   - moeda_text_tag
   - Ataque
+  - Chance_texto_tag
+  - Nova_municao
+  - Municao_text
+  - Municao_texto_tag
+  - Checkpoint
+  - morte_imediata
+  - passarFase2
+  - passarFase3
+  - Boss
+  - Parede
+  - weapon
+  - MovingPlatform
+  - BalaBoss
+  - BossTiro
+  - hp_barra_noel
+  - BonecoBoss
+  - BonecoHp
+  - BossHp
+  - vitoria
   layers:
   - Default
   - TransparentFX

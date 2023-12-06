@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -293685192, guid: 97d359394655bed4e8a7f1731eed1c98, type: 3}
+      value: {fileID: -1729493948, guid: dfcb4b758c07d67448996ed7e3c58c92, type: 3}
     - time: 0.083333336
-      value: {fileID: -666229764, guid: 97d359394655bed4e8a7f1731eed1c98, type: 3}
+      value: {fileID: 226677421, guid: dfcb4b758c07d67448996ed7e3c58c92, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -293685192, guid: 97d359394655bed4e8a7f1731eed1c98, type: 3}
-    - {fileID: -666229764, guid: 97d359394655bed4e8a7f1731eed1c98, type: 3}
+    - {fileID: -1729493948, guid: dfcb4b758c07d67448996ed7e3c58c92, type: 3}
+    - {fileID: 226677421, guid: dfcb4b758c07d67448996ed7e3c58c92, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -54,7 +54,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -68,4 +68,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.083333336
+    functionName: Disparo
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

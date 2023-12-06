@@ -1,0 +1,839 @@
+fileFormatVersion: 2
+guid: da67f50320e0d3049b29c16855b1c55e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 262
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7427d790d7dd594c8acb277e2fbad1d
+      internalID: 1960324833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 262
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15ae5880eae09d42b20b489531e059f
+      internalID: -1137922924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 253
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9582eb64f5d2e544b6629902ea96df7
+      internalID: -2081976159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 253
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f13b4045ae7747429a226eb9bf29a04
+      internalID: -1975994687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 262
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e88d17760a04d42a5747f67632d02c
+      internalID: 361494756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 262
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281e12c21421b35459d6fef4e753b78e
+      internalID: 474703100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 262
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e5e26385966a4fbe3dfdcb9d8ffca
+      internalID: -1139588625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 253
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ca73b134f6f274ab0589f62effba51
+      internalID: 979767265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 276
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006b626f483825f4fbec90e938e5271c
+      internalID: -325411188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 261
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a579f4feae57c4dbea3de8b88b6e3c
+      internalID: -1088820218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 262
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46852bd986360e24b889a1ef38acdf63
+      internalID: -276417000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 253
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442454c5585dc4043982bd3ac556bfc6
+      internalID: 703341322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 253
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974add720c526e7438a6a3682210f493
+      internalID: -105973352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 262
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3835c8acddeb44b9032ae14dd15cde
+      internalID: -426228620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 262
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f346ac7c58054274daefeeb8e8296311
+      internalID: 1247038969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 262
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eda80e94c18c34a83cf36d326f5d87
+      internalID: -1827877887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 262
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339a6812b1a277545a63b8eb53449deb
+      internalID: 351681104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 262
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cee0ef5f503818458e6d96f1ce3ab80
+      internalID: 1320063797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_18
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d7bbd3666fce4ab633f8dd0d1bebc
+      internalID: -42034255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f8a15c6e829dd44b1d7225eba48056
+      internalID: -1445761010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_20
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 253
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05a0bfcc0c335643b44640f553acb36
+      internalID: 385172735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 262
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811a2792074982b46bb1049d69e7b68b
+      internalID: 1973985808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 262
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276759710f82e474eb1b390c792dad54
+      internalID: 1204339019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_23
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 63
+        width: 502
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce49bb55f0b584085c141067efcf19
+      internalID: 1958077696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_24
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 264
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad2bb3dad6a31746adef4330ae53f98
+      internalID: -1575198655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_25
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 39
+        width: 348
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038bbd787a560b643a111b1e8f7723ea
+      internalID: -1521406768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 256
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceda950c1bb4ce045ae740b2ba7ede71
+      internalID: 899479031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_27
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 17
+        width: 239
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7013816cbfc3d2f4cb0ced5d864b29ae
+      internalID: -2096009468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 207
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6ddc1856c5ef14b9ce94aeb9afcf24
+      internalID: -2090134491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 224
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18f4e212ae199345bf041bbb69b30e6
+      internalID: -30568698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_30
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 17
+        width: 164
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f44b95e3c30a2469c5bb594a0f74b4
+      internalID: 2081427783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_31
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 17
+        width: 192
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f6864ac4758442b9757d67a130586
+      internalID: -558510566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_0: 1960324833
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_1: -1137922924
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_10: -276417000
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_11: 703341322
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_12: -105973352
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_13: -426228620
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_14: 1247038969
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_15: -1827877887
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_16: 351681104
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_17: 1320063797
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_18: -42034255
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_19: -1445761010
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_2: -2081976159
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_20: 385172735
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_21: 1973985808
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_22: 1204339019
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_23: 1958077696
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_24: -1575198655
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_25: -1521406768
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_26: 899479031
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_27: -2096009468
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_28: -2090134491
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_29: -30568698
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_3: -1975994687
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_30: 2081427783
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_31: -558510566
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_4: 361494756
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_5: 474703100
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_6: -1139588625
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_7: 979767265
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_8: -325411188
+      Mobile - Osomatsu-san Hesokuri Wars Battle of the NEETs - Birthday Present_9: -1088820218
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

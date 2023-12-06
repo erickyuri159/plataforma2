@@ -1,10 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Esqueleto : MonoBehaviour
 {
-    public int hp = 100;
+    public float  hp = 10;
     public bool podeTomarDano = true;
     private Animator Animacao;
     public float posInicial;
@@ -14,18 +16,30 @@ public class Esqueleto : MonoBehaviour
     public bool vendoJogador = false;
     public GameObject MeuAtk;
     public bool vivo = true;
+    // controla o jogo
+    private GerenciadorJogo GJ;
+    public GameObject drop;
+    public SpriteRenderer BarraHp;
+
 
     void Start()
     {
+        //recebe informaçao game objet
+        GJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<GerenciadorJogo>();
         Animacao = GetComponent<Animator>();
         Jogador = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     private void Update()
     {
-        if(vivo == true)
+        if (GJ.EstadoDoJogo() == true)
         {
-            Intel();
+            if (vivo == true)
+            {
+                Intel();
+                PerdeEsqueletoHP();
+            }
         }
         
     }
@@ -40,7 +54,7 @@ public class Esqueleto : MonoBehaviour
         }else if (Vector2.Distance(transform.position, Jogador.transform.position) <= 2f)
         {
             vendoJogador = true;
-           // Animacao.SetBool("Andar", false);
+            Animacao.SetBool("Andar", false);
         }else if (Vector2.Distance(transform.position, Jogador.transform.position) > 2f)
         {
             vendoJogador = false;
@@ -77,25 +91,36 @@ public class Esqueleto : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D colidiu)
+    private void OnTriggerEnter2D(Collider2D colidiu)
     {
+        Debug.Log(colidiu.gameObject.tag);
         if(colidiu.gameObject.tag == "Ataque")
         {
-            if(podeTomarDano == true)
-            {
+            //if(podeTomarDano == true)
+            //{
                 hp--;
-                podeTomarDano = false;
-                Animacao.SetTrigger("TomouDano");
+                //podeTomarDano = false;
+                //Animacao.SetTrigger("TomouDano");
                 if (hp <= 0)
                 {
                     Animacao.SetBool("Morto", true);
                     Morto();
                 }
-            }
+            //}
             
         }
     }
-
+    public void DanoEsqueletoPlayer()
+    {
+        hp--;
+        if (hp <= 0)
+        {
+            Animacao.SetBool("Morto", true);
+            Morto();
+        }
+        PerdeEsqueletoHP();
+    }
+    
     public void AcabouImunidade()
     {
         podeTomarDano = true;
@@ -111,13 +136,20 @@ public class Esqueleto : MonoBehaviour
     {
         MeuAtk.SetActive(false);
     }
-
+   public void  PerdeEsqueletoHP()
+    {
+        float vida_parabarra = hp * 0.125f;
+        BarraHp.transform.localScale = new Vector3(vida_parabarra, 0.1f, 1f);
+    }
 
     void Morto()
     {
         GetComponent<Collider2D>().enabled = false;
+        GetComponent<Rigidbody2D>().gravityScale = 0;
         vivo = false;
-        Destroy(gameObject, 15f);
+        Destroy(gameObject, 5f);
+        Vector3 ponto = new Vector3(transform.position.x, transform.position.y + 1.7f, transform.position.z);
+        GameObject BalaDispara = Instantiate(drop, ponto, Quaternion.identity);
     }
 
 }

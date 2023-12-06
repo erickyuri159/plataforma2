@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,12 +120,12 @@ TextureImporter:
       name: Greenbeer atk (31_0
       rect:
         serializedVersion: 2
-        x: 93
+        x: 0
         y: 647
-        width: 72
-        height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 173
+        height: 181
+      alignment: 9
+      pivot: {x: 0.7566141, y: 0.004237391}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: Greenbeer atk (31_1
       rect:
         serializedVersion: 2
-        x: 175
+        x: 173
         y: 648
-        width: 109
-        height: 126
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 150
+        height: 180
+      alignment: 9
+      pivot: {x: 0.52518827, y: 0.0067308214}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Greenbeer atk (31_2
       rect:
         serializedVersion: 2
-        x: 327
-        y: 647
-        width: 170
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 325
+        y: 648
+        width: 171
+        height: 180
+      alignment: 9
+      pivot: {x: 0.27352726, y: -0.0037641737}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: Greenbeer atk (31_3
       rect:
         serializedVersion: 2
-        x: 516
+        x: 495
         y: 647
-        width: 165
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 185
+        height: 181
+      alignment: 9
+      pivot: {x: 0.28045425, y: 0.009455754}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Greenbeer atk (31_4
       rect:
         serializedVersion: 2
-        x: 87
-        y: 481
-        width: 71
-        height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 483
+        width: 171
+        height: 163
+      alignment: 9
+      pivot: {x: 0.7264731, y: 0.016201839}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Greenbeer atk (31_5
       rect:
         serializedVersion: 2
-        x: 217
-        y: 481
-        width: 93
-        height: 126
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 173
+        y: 480
+        width: 184
+        height: 166
+      alignment: 9
+      pivot: {x: 0.4178646, y: 0.016340509}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,27 +238,6 @@ TextureImporter:
       bones: []
       spriteID: c729490d074dda1449c9c8ab44d90dfc
       internalID: -666229764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greenbeer atk (31_6
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 522
-        width: 58
-        height: 35
-      alignment: 9
-      pivot: {x: 0.28828904, y: 0.7428868}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2e962c9146b3a547826c012063dfe26
-      internalID: 1176318531
       vertices: []
       indices: 
       edges: []
@@ -280,7 +259,6 @@ TextureImporter:
       Greenbeer atk (31_3: 956356203
       Greenbeer atk (31_4: -293685192
       Greenbeer atk (31_5: -666229764
-      Greenbeer atk (31_6: 1176318531
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
