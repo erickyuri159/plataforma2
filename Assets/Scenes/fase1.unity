@@ -31592,6 +31592,10 @@ PrefabInstance:
       propertyPath: limiteEsquerda
       value: 127.9
       objectReference: {fileID: 0}
+    - target: {fileID: 4551874534659646867, guid: 8ea46306f9a7f424689ff115a8c01c77, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     - target: {fileID: 4551874534659646876, guid: 8ea46306f9a7f424689ff115a8c01c77, type: 3}
       propertyPath: m_Name
       value: Solomovimenta (1)
@@ -46985,6 +46989,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Pisavel
       objectReference: {fileID: 0}
+    - target: {fileID: 8387715625969759818, guid: 86248fb736e5f954f88f7ed3167c5358, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     - target: {fileID: 8387715625969759819, guid: 86248fb736e5f954f88f7ed3167c5358, type: 3}
       propertyPath: limiteInferior
       value: -8.286518
@@ -47681,6 +47689,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 206386461126586179, guid: 84b98165dc0c1794dbb968294a6b3ba8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     - target: {fileID: 206386461126586205, guid: 84b98165dc0c1794dbb968294a6b3ba8, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -50541,6 +50553,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Pisavel
       objectReference: {fileID: 0}
+    - target: {fileID: 8387715625969759818, guid: 86248fb736e5f954f88f7ed3167c5358, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86248fb736e5f954f88f7ed3167c5358, type: 3}
 --- !u!1 &2106650612
@@ -50860,6 +50876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Solofalso
       objectReference: {fileID: 0}
+    - target: {fileID: 206386461126586179, guid: 84b98165dc0c1794dbb968294a6b3ba8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     - target: {fileID: 206386461126586205, guid: 84b98165dc0c1794dbb968294a6b3ba8, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -51140,6 +51160,10 @@ PrefabInstance:
       propertyPath: limiteEsquerda
       value: 93
       objectReference: {fileID: 0}
+    - target: {fileID: 4551874534659646867, guid: 8ea46306f9a7f424689ff115a8c01c77, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     - target: {fileID: 4551874534659646876, guid: 8ea46306f9a7f424689ff115a8c01c77, type: 3}
       propertyPath: m_Name
       value: Solomovimenta
@@ -51336,6 +51360,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Pisavel
       objectReference: {fileID: 0}
+    - target: {fileID: 8387715625969759818, guid: 86248fb736e5f954f88f7ed3167c5358, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 72647ec95c9d33847bb2e9f2d2b6832c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86248fb736e5f954f88f7ed3167c5358, type: 3}
 --- !u!1001 &8697269618788641413

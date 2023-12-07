@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ControleTiro : MonoBehaviour
 {
+    
+
     private float velocidade_bala = 0;
     // controla o jogo
     private GerenciadorJogo GJ;
@@ -23,6 +25,7 @@ public class ControleTiro : MonoBehaviour
             MoverBala();
         }
     }
+   
     void MoverBala()
     {
         transform.position = new Vector3(transform.position.x + velocidade_bala, transform.position.y, transform.position.z);
@@ -36,6 +39,7 @@ public class ControleTiro : MonoBehaviour
     {
         if (colisao.gameObject.tag== "inimigo")
         {
+            
             //outro objeto
             //Destroy(colisao.gameObject);
             colisao.gameObject.GetComponent<Esqueleto>().DanoEsqueletoPlayer();
@@ -45,7 +49,8 @@ public class ControleTiro : MonoBehaviour
         if (colisao.gameObject.tag == "Boss")
 
         {
-           // Destroy(colisao.gameObject);
+            
+            // Destroy(colisao.gameObject);
             colisao.gameObject.GetComponent<BossUI>().DanoPlayer();
             Destroy(this.gameObject);
         }
@@ -57,4 +62,6 @@ public class ControleTiro : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+   
+
 }
